@@ -27,18 +27,18 @@ export default function Header1({ HeadText, Head2Text }: any) {
           <form action="">
             <div className="flex xl:flex-row sm:flex-col xl:justify-between sm:justify-center">
               <div className="flex flex-col ">
-                <Input InText="Name" InType="text" />
+                <Input InText="Name" InType="text" InName="Name" />
                 <div className="xl:flex xl:flex-row sm:flex sm:flex-col gap-[5px] mt-[30px] mb-[30px]">
-                  <Input2 InText="Class" InType="text" />
+                  <Input2 InText="Class" InType="text" InName="Class" />
                   <div className="sm:mt-[20px] sm:ml-0 xl:mt-0 xl:ml-8">
-                    <Input2 InText="Absent" InType="number" />
+                    <Input2 InText="Absent" InType="number" InName="Absent" />
                   </div>
                 </div>
-                <Input InText="Student Email" InType="email" />
+                <Input InText="Student Email" InType="email" InName="Email" />
               </div>
               <div className="flex flex-col">
                 <div className="xl:mt-0 sm:mt-4">
-                  <Input InText="Date" InType="date" />
+                  <Input InText="Date" InType="date" InName="Date" />
                 </div>
                 <div className="mt-[20px]">
                   <Dropdown
@@ -46,9 +46,14 @@ export default function Header1({ HeadText, Head2Text }: any) {
                     DropVal1=""
                     DropVal2="Male"
                     DropVal3="Female"
+                    DropName="Gender"
                   />
                   <div className="mt-[30px]">
-                    <Input InText="Phone Number" InType="number" />
+                    <Input
+                      InText="Phone Number"
+                      InType="number"
+                      InName="Phone"
+                    />
                   </div>
                 </div>
               </div>

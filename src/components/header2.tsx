@@ -33,9 +33,14 @@ export default function Header2({ HeadText, Head2Text }: any) {
                 DropVal4="Stress"
                 DropVal5="Love Problem"
                 DropVal6="Bully"
+                DropName="Problem"
               />
               <div className="mt-[25px]">
-                <Input3 InText="Problem Description" InType="text" />
+                <Input3
+                  InText="Problem Description"
+                  InType="text"
+                  InName="Description"
+                />
               </div>
             </div>
           </form>

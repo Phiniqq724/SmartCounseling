@@ -23,15 +23,9 @@ export default function Component() {
           </Navbar.Link>
           <Navbar.Link
             className="hover:text-oceanb text-deepb no-underline hover:underline hover:underline-offset-1 transition-transform duration-200 transform hover:scale-105 text-xl"
-            href="#"
+            href="#Topics"
           >
             Topics
-          </Navbar.Link>
-          <Navbar.Link
-            className="hover:text-oceanb text-deepb no-underline hover:underline hover:underline-offset-1 transition-transform duration-200 transform hover:scale-105 text-xl"
-            href="#"
-          >
-            Credit
           </Navbar.Link>
         </Navbar.Collapse>
       </Navbar>
