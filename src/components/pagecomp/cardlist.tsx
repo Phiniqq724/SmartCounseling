@@ -2,7 +2,7 @@ import { Card } from "flowbite-react";
 
 export default function CardL() {
   return (
-    <main className="flex justify-between xl:gap-[100px] sm:gap-12 xl:flex-row sm:flex-col xl:w-[1000px] sm:w-full sm:mt-12 sm:mb-12 xl:mt-0 sm:mt-0">
+    <main className="flex justify-between gap-12 xl:gap-[100px]  flex-col xl:flex-row  w-full xl:w-[1000px] sm:mt-12 sm:mb-12 xl:mt-0">
       <div className="">
         <Card href="#" className="max-w-sm h-[192px]">
           <h5 className="text-2xl font-bold tracking-tight text-oceanb dark:text-white text-start">

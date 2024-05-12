@@ -3,9 +3,9 @@ import Forms from "@/components/pagecomp/form";
 
 export default function Form1() {
   return (
-    <main className="flex justify-center flex-col">
+    <main className="flex justify-center">
       {/* Remove empty div elements */}
-      <div className="flex justify-center flex-col ">
+      <div className="flex justify-center max-w-[300px] xl:max-w-full ">
         <Forms />
       </div>
       <div></div>

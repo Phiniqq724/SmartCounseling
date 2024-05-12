@@ -7,15 +7,15 @@ import Bullying from "../../../public/Bullying.png";
 export default function Counseling() {
   return (
     <main id="Topics">
-      <div className="bg-oceanb xl:w-[600px] sm:w-full h-[200px] items-center flex sm:justify-center xl:justify-normal xl:rounded-r-xl sm:rounded-none">
+      <div className="bg-oceanb  sm:w-full xl:w-[600px] h-[200px] items-center flex sm:justify-center xl:justify-normal xl:rounded-r-xl sm:rounded-none">
         <div className="xl:w-[100px] sm:w-0"></div>
         <h1 className="text-white text-center text-[48px] font-bold">
           Counseling Topics
         </h1>
       </div>
-      <div className="flex justify-center">
-        <div className="flex xl:flex-row sm:flex-col justify-center gap-24 mt-24 pb-24">
-          <div className="flex justify-center items-start w-[404px]">
+      <div className="flex justify-center ">
+        <div className="flex flex-col xl:flex-row justify-center gap-24 mt-24 pb-24">
+          <div className="flex justify-center items-start w-full">
             <div className="flex flex-col gap-[30px]">
               <div className="flex justify-center">
                 <div></div>
@@ -35,7 +35,7 @@ export default function Counseling() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-start w-[404px]">
+          <div className="flex justify-center items-start w-full">
             <div className="flex flex-col gap-[30px]">
               <div className="flex justify-center">
                 <div></div>
@@ -53,7 +53,7 @@ export default function Counseling() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-start w-[404px]">
+          <div className="flex justify-center items-start w-full">
             <div className="flex flex-col gap-[30px]">
               <div className="flex justify-center">
                 <div></div>

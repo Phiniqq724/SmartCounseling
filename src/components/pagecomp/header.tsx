@@ -2,8 +2,8 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <main>
-      <div className="flex justify-normal flex-col items-left xl:w-[800px] sm:w-[400px]">
+    <main className="max-w-full ">
+      <div className="flex justify-normal flex-col items-left w-full xl:w-[800px]">
         <p className="text-white text-4xl font-bold">
           Yuk, Ceritakan Kegelisahanmu dan Dapatkan Solusi Terbaik dari Para
           Guru BK!

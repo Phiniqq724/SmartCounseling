@@ -20,7 +20,7 @@ export const Input = ({ InText, InType, InName, onChange, value }: CInput) => {
         type={InType}
         onChange={onChange}
         value={value}
-        className="xl:h-[56px] sm:h-[70px] rounded-xl xl:w-full sm:w-full bg-gray-100 text-justify px-4"
+        className="xl:h-[56px] sm:h-[70px] rounded-xl w-full bg-gray-100 text-justify px-4"
         name={InName}
       />
     </label>
@@ -36,7 +36,7 @@ export const Input2 = ({ InText, InType, InName, onChange, value }: CInput) => {
         type={InType}
         onChange={onChange}
         value={value}
-        className="xl:h-[56px] rounded-xl sm:h-[70px] xl:w-full sm:w-full bg-gray-100 px-4"
+        className="xl:h-[56px] rounded-xl sm:h-[70px] w-full bg-gray-100 px-4"
         name={InName}
       />
     </label>

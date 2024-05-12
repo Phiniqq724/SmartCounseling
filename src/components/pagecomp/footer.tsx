@@ -14,7 +14,7 @@ export default function Footer() {
           <div className="flex flex-col gap-4 text-white w-[435px]">
             <h1 className="font-bold text-xl">Tentang Kami</h1>
             <div className="w-[120px] bg-white h-1"></div>
-            <p className="text-[18px]">
+            <p className="text-sm xl:text-[18px]">
               Bagikan Ceritamu memberikan kebebasan padamu untuk bercerita
               apapun masalahnya dan bertemu dengan para guru BK di sekolah untuk
               mendapat jawaban-jawaban terbaik atas keluh kesahmu tanpa khawatir

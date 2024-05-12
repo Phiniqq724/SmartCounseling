@@ -21,7 +21,7 @@ export default function Dropdown({
         name={DropName}
         id={DropId}
         title={DropTitle}
-        className="xl:h-[56px] xl:w-full sm:w-full sm:h-[70px] bg-gray-100 rounded-xl px-4 "
+        className="xl:h-[56px] w-full sm:h-[70px] bg-gray-100 rounded-xl px-4 "
       >
         <option value={DropVal1}>{DropVal1}</option>
         <option value={DropVal2}>{DropVal2}</option>

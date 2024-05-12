@@ -6,17 +6,17 @@ import Footer from "@/components/pagecomp/footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-full">
       <Navbar />
-      <div className="w-full h-[600px] bg-gradient-to-tr from-deepb to-oceanb">
-        <div className="flex justify-start ml-24 items-center">
+      <div className=" h-[600px] bg-gradient-to-tr from-deepb to-oceanb">
+        <div className="flex justify-start ml-4 xl:ml-24 items-center">
           <div className="h-[600px]"></div>
           <Header />
         </div>
       </div>
       <div className="justify-center flex items-center">
         <div className="h-[600px]"></div>
-        <div className=" mx-4">
+        <div className="">
           <CardL />
         </div>
       </div>
