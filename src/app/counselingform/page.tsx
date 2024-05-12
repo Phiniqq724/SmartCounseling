@@ -1,4 +1,3 @@
-import Header from "../../components/header1";
 import Footer from "@/components/footer1";
 import Forms from "@/components/pagecomp/form";
 

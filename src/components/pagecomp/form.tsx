@@ -123,7 +123,9 @@ const Forms: React.FC = () => {
             </div>
             <div className="">
               <Dropdown
-                onChange={(e) => setGender(e.target.value)}
+                onChange={(e: {
+                  target: { value: React.SetStateAction<string> };
+                }) => setGender(e.target.value)}
                 value={gender}
                 DropText="Gender"
                 DropVal2="Male"
