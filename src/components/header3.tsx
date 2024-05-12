@@ -11,7 +11,7 @@ export default function Header3() {
   const [isVisible, setIsVisible] = useState(false);
 
   const ScriptURL =
-    "hhttps://script.google.com/macros/s/AKfycbyp5S5YuzMtcLp40Wkx4Cmzygfw9LEoq5IvuE3-akBFMGlbOxiCY2lSMg-ReJaYi3jcAA/exec";
+    "https://script.google.com/macros/s/AKfycbyB17lZv6VsXEKBRUjHBvb2rsyA-EeWIoDyNN3T7D-IUWKYi3KotnvK5gPtpFaeDnAj_Q/exec";
 
   useEffect(() => {
     const formData1 = JSON.parse(sessionStorage.getItem("formData1") || "{}");
@@ -30,7 +30,7 @@ export default function Header3() {
       );
 
       const response = await fetch(ScriptURL, {
-        mode: 'no-cors',
+        mode: "no-cors",
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -97,19 +97,17 @@ export default function Header3() {
               </p>
             </label>
           </div>
-          {
-  showButton && (
-    <button onClick={handleSubmit}>
-      {isMutating ? (
-        <div>Loading...</div>
-      ) : isVisible ? (
-        <div>Data Sent</div>
-      ) : (
-        <div>Submit</div>
-      )}
-    </button>
-  )
-}
+          {showButton && (
+            <button onClick={handleSubmit}>
+              {isMutating ? (
+                <div>Loading...</div>
+              ) : isVisible ? (
+                <div>Data Sent</div>
+              ) : (
+                <div>Submit</div>
+              )}
+            </button>
+          )}
         </div>
         <div></div>
       </div>

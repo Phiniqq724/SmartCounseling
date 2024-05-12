@@ -16,7 +16,7 @@ export default function Footer3() {
             <Image src={Arrow} alt="Icon" />
           </div>
           <div className="sm:w-[120px]">
-            <RedButton BtnText="Next" Navigate=".." />
+            <RedButton BtnType="submit" BtnText="Submit" Navigate=".." />
           </div>
         </div>
       </div>
