@@ -57,6 +57,7 @@ export const Input3 = ({ InText, onChange, value, InName }: CInput) => {
         className="h-[260px] rounded-xl w-full bg-gray-100 p-4"
         rows={4}
         cols={50}
+        required
       ></textarea>
     </label>
   );
