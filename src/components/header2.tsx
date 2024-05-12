@@ -25,7 +25,9 @@ export default function Header2({ HeadText, Head2Text }: any) {
     }
   }, []);
 
-  const handleInputsChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleInputsChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
     const { name, value } = e.target;
     setFormData((prevFormData) => ({
       ...prevFormData,
@@ -51,12 +53,31 @@ export default function Header2({ HeadText, Head2Text }: any) {
           </div>
           <div className="h-[2px] mt-[25px] mb-[50px] bg-greyc xl:w-[1040px] md:w-[520px]" />
           <h1 className="font-semibold xl:text-4xl sm:text-2xl">{HeadText}</h1>
-          <h2 className="text-gray-400 font-semibold mt-[50px] mb-[25px] xl:text-xl sm:text-[20px]">{Head2Text}</h2>
+          <h2 className="text-gray-400 font-semibold mt-[50px] mb-[25px] xl:text-xl sm:text-[20px]">
+            {Head2Text}
+          </h2>
           <form action="">
             <div className="flex flex-col">
-              <Dropdown onChange={handleInputsChange} value={formData.Problem} DropText="Problem Category" DropVal1="Anything" DropVal2="Personal" DropVal3="Education" DropVal4="Stress" DropVal5="Love Problem" DropVal6="Bully" DropName="Problem" />
+              <Dropdown
+                onChange={handleInputsChange}
+                value={formData.Problem}
+                DropText="Problem Category"
+                DropVal1="Anything"
+                DropVal2="Personal"
+                DropVal3="Education"
+                DropVal4="Stress"
+                DropVal5="Love Problem"
+                DropVal6="Bully"
+                DropName="Problem"
+              />
               <div className="mt-[25px]">
-                <Input3 onChange={handleInputsChange} value={formData.Description} InText="Problem Description" InType="text" InName="Description" />
+                <Input3
+                  onChange={handleInputsChange}
+                  value={formData.Description}
+                  InText="Problem Description"
+                  InType="text"
+                  InName="Description"
+                />
               </div>
             </div>
           </form>
